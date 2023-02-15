@@ -1,7 +1,7 @@
 import dash
 from dash import dcc
 from dash import html
-import dash_table
+from dash import dash_table
 import pandas as pd
 import plotly.graph_objs as go # for the pie chart
 import plotly.express as px # for the scatter plot
