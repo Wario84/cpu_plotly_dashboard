@@ -9,6 +9,7 @@ import plotly.express as px # for the scatter plot
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 
 # Load the dataset
 #df = pd.read_csv("test_cpus.csv")
